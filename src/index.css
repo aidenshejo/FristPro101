@@ -1,0 +1,89 @@
+:root{
+  --Primery-- : #fbd900;
+  --text-- :#000000;
+  --advance--: #ffffff;
+  --secondary--: #f43b69;
+
+
+}
+body{
+  background-color: var(--Primery--);
+  color: var(--text--);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+main{
+ text-align: center; 
+}
+#all{
+  max-width: 400px;
+  height: 500px;
+  margin: 0px auto;
+  background-color:var(--advance--);
+  color: white;
+  overflow: hidden;
+  border: 1px solid black;
+  
+}
+#myform{
+  margin: 0px auto;
+  background-color: transparent;
+  max-width: 400px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+#allinput{
+  position: sticky;
+  display: flex;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 2.4rem;
+  margin-top: 0px;
+  width: 100%;
+  border-bottom: 2px solid;
+  border-color: var(--Primery--);
+}
+#allinput input{
+  width: 100%;
+  padding: 0.3rem;
+  border: 0px;
+  background-color: transparent;
+  color: var(--text--);
+  font-size: 18px;
+  align-self: center;
+
+}
+#allinput button {
+  padding: 1px  1rem;
+  background-color: transparent;
+  color: var(--text--);
+  border: 0px;
+  background-color: var(--Primery--);
+}
+li{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 1rem 1rem 1rem;
+  margin: 1rem auto;
+  color: var(--text--);
+  border-left: 4px solid ;
+  border-color: var(--Primery--);
+  font-size: large;
+}
+ul{
+  overflow-y: scroll;
+  height: 400px;
+}
+li button {
+  border: 0px;
+  background: var(--Primery--);
+  padding: 0.3rem 1rem;
+  cursor: pointer;
+}
+
+
+
+
+
+
